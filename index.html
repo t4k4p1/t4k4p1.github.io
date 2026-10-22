@@ -1,276 +1,79 @@
-<!DOCTYPE html>
-<html class="no-js" lang="ja">
-
+<!doctype html>
+<html lang="ja">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>T4k4p1's Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ITの課題整理から設計・実装、運用改善まで。インフラ・セキュリティ、社内AIの開発と活用、これまでの取り組みと個人開発を紹介します。">
+  <meta name="theme-color" content="#fbfaf6">
+  <title>ITの課題整理から設計・実装、運用改善まで</title>
+  <link rel="canonical" href="https://t4k4p1.github.io/">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="assets/hero-composition.webp">
 </head>
-
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+  <main>
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="hero-art" aria-hidden="true"><img src="assets/hero-composition.webp" alt="" width="1000" height="833" fetchpriority="high"></div>
+      <div class="hero-copy">
+        <h1 id="intro-title">ITの課題整理から<br><span class="hero-line-two">設計・実装、運用改善まで</span><br><span class="hero-line-three">対応します。</span></h1>
+        <p>「手が足りず進められない」「何から着手すべきか<br class="desktop-break">整理したい」といったお悩みもご相談ください。</p>
+      </div>
+    </section>
+
+    <section class="services section-wrap" aria-labelledby="services-title">
+      <div class="section-heading service-heading"><h2 id="services-title">お力になれること</h2><p>まずは取り組みたいことをご相談ください</p></div>
+      <div class="service-grid">
+        <article class="service">
+          <img class="service-art" src="assets/service-infra.webp" alt="" width="340" height="300">
+          <div><h3>インフラ・セキュリティの<br class="desktop-break">課題を整理し、更改を進めたい</h3><p>要件整理・技術選定から設計・構築まで、技術リードとして担当します。</p></div>
+        </article>
+        <article class="service">
+          <img class="service-art" src="assets/service-ai.webp" alt="" width="340" height="300">
+          <div><h3>社内AIを開発し、<br class="desktop-break">導入後も改善したい</h3><p>アプリとクラウド基盤の実装、利用状況の分析・改善を担当します。</p></div>
+        </article>
+      </div>
+      <p class="service-note">課題と体制を伺い、既存ベンダーとの分担も踏まえて、担当できる工程・役割を一緒に考えます。</p>
+    </section>
+
+    <section class="values section-wrap" aria-labelledby="values-title">
+      <div class="section-heading"><h2 id="values-title">仕事で大切にしていること</h2></div>
+      <div class="values-grid">
+        <article class="value"><div class="value-icon sage"><img src="assets/icons/search.svg" alt="" width="45" height="45"></div><div><h3>状況を整理し、<br class="desktop-break">見える形にする</h3><p>情報やデータを整理・可視化し、現状を捉える。</p></div></article>
+        <article class="value"><div class="value-icon sand"><img src="assets/icons/settings.svg" alt="" width="45" height="45"></div><div><h3>目的から実現方法<br class="desktop-break">を考える</h3><p>費用や運用の手間を踏まえ、目的に合う方法を選ぶ。</p></div></article>
+        <article class="value"><div class="value-icon clay"><img src="assets/icons/users-group.svg" alt="" width="45" height="45"></div><div><h3>使う人の立場で、<br class="desktop-break">改善を重ねる</h3><p>使い方や利用者の声を確かめ、使いにくさを減らす。</p></div></article>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" aria-labelledby="projects-title">
+      <div class="section-heading"><h2 id="projects-title">これまでの取り組み</h2></div>
+      <ol class="project-list">
+        <li class="project"><span class="project-number" aria-hidden="true">01</span><img class="project-icon" src="assets/icons/hierarchy-2.svg" alt="" width="54" height="54"><div><h3>国内外140拠点のセキュリティ強化</h3><p>企画・経営提案から設計・構築・導入・運用まで。自ら実装する技術リードとして一貫して担当。</p></div></li>
+        <li class="project"><span class="project-number" aria-hidden="true">02</span><img class="project-icon" src="assets/icons/file-search.svg" alt="" width="54" height="54"><div><h3>社内検索AIの企画・開発・運用</h3><p>自らアプリとAWS基盤の設計・実装、運用・改善を担当。</p></div></li>
+        <li class="project"><span class="project-number" aria-hidden="true">03</span><img class="project-icon" src="assets/icons/users-group.svg" alt="" width="54" height="54"><div><h3>AIの全社展開と利用定着</h3><p>AI選定・経営への説明から全社展開までを主導。指標設計・分析・活用支援を一貫して担当。</p></div></li>
+      </ol>
+    </section>
+
+    <div class="bottom-area">
+      <div class="bottom-grid section-wrap">
+        <section class="experience" aria-labelledby="experience-title">
+          <div class="section-heading"><h2 id="experience-title">これまでの経験</h2></div>
+          <p class="experience-intro">お客様にITを提供する立場と、自社の業務をITで改善する立場の両方を経験</p>
+          <div class="career-grid">
+            <article class="career"><img src="assets/icons/building.svg" alt="" width="50" height="50"><h3>ITベンダー</h3><p>インフラ構築<br>プロジェクト管理</p></article>
+            <article class="career"><img src="assets/icons/factory.svg" alt="" width="50" height="50"><h3>製造業（社内SE）</h3><p>社内ITの企画・導入・運用</p></article>
+            <article class="career"><img src="assets/icons/users-group.svg" alt="" width="50" height="50"><h3>マーケティング会社<wbr>（社内SE）</h3><p>AI・データ活用<br>開発基盤の整備</p></article>
+          </div>
+        </section>
+        <section class="personal" aria-labelledby="personal-title">
+          <div class="section-heading"><h2 id="personal-title">個人開発をしています</h2></div>
+          <p class="personal-intro">趣味でAndroidやmacOS向けのアプリを作っています。</p>
+          <div class="app-list">
+            <article class="app"><img src="assets/koe-icon.png" alt="" width="80" height="80"><div><h3>Koe</h3><p>話した内容を文字にし、読みやすく整えて入力する音声入力アプリです。Android版とmacOSのデスクトップ版を開発しています。</p></div></article>
+            <article class="app"><img src="assets/life-left-icon.png" alt="" width="80" height="80"><div><h3>Life Left</h3><p>人生の残り時間や、大切な人やペットと過ごせる時間の目安を表示するmacOSのデスクトップアプリです。一緒に叶えたいことと次の一歩を記録し、誰とどう過ごしたいかを見える形にします。</p></div></article>
+          </div>
+        </section>
+      </div>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/m1zut4k4" target="_blank" class="no-scroll"><i class="fa fa-twitter"></i> Contact</a>
-            </li>
-            <li>
-                <a href="https://github.com/t4k4p1" target="_blank" class="no-scroll"><i class="fa fa-github"></i> GitHub</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>T4k4p1</h1>
-            <h2>IT Infrastructure Architect / Corporate Engineer</h2>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <ul>
-                    <li>ITインフラの企画・設計・導入・運用を一貫して担当し、全体最適を意識した統括を経験。</li>
-                    <li>クラウド移行やセキュリティ強化を推進し、アプリケーションを含めた最適なシステム設計が得意。</li>
-                    <li>プロジェクト推進や課題解決、チームの組成・育成にも積極的に取り組み、組織力向上に貢献。</li>
-                    <li>現職では事業成長を見据えたIT戦略立案や技術選定に挑戦中。</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">経歴</h2>
-        <div id="experience-timeline">
-            <div data-date="2025年4月 – 現在">
-                <h3>マーケティング会社</h3>
-                <h4>マネージャー</h4>
-                <ul>
-                    <li>CTO直下でIT戦略の策定および技術選定をリードし、事業成長を見据えた最適なIT基盤の構築を推進。</li>
-                </ul>
-            </div>
-
-            <div data-date="2020年8月 – 2025年3月">
-                <h3>大手製造業</h3>
-                <h4>情報システム部/サブマネージャー</h4>
-                <ul>
-                    <li>全社ITインフラの企画・設計・導入・運用を統括し、安定性と効率性を両立したシステム環境を実現。</li>
-                    <li>社内Webサービスの企画から設計・開発まで一貫して担当し、CIOと連携しながら高品質なサービスを提供。</li>
-                </ul>
-            </div>
-
-            <div data-date="2015年9月 – 2016年9月">
-                <h3>中規模SIer</h3>
-                <h4>チーフ</h4>
-                <ul>
-                    <li>ITインフラ案件のプロジェクトリーダー/マネージャーとして、提案から導入までを主導。</li>
-                    <li>顧客提案や新卒採用・育成にも積極的に取り組み、組織力強化に貢献。</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">学歴</h2>
-        <div class="education-block">
-            <h3>早稲田大学大学院</h3>
-            <span class="education-date">2010年4月 - 2012年3月</span>
-            <h4>先進理工学研究科</h4>
-        </div>
-        <div class="education-block">
-            <h3>早稲田大学</h3>
-            <span class="education-date">2006年4月 - 2010年3月</span>
-            <h4>教育学部</h4>
-        </div>
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">主なプロジェクト</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Datadog.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>[製造業/情シス]運用課題の分析と可視化基盤の内製化</h3>
-                        <p>
-                            障害対応の属人化やシステムの健全性確認に課題を発見。<br>
-                            現状分析と関係者ヒアリングを通じて改善の必要性を提言。<br>
-                            複数ツールを比較検討した上で、Datadogを中核にした運用基盤の導入を上申・採択。<br>
-                            ログ集約や可視化ダッシュボードを通じて、対応時間を約60%短縮。<br>
-                            定着・浸透に向けてトレーニングや運用ガイド整備も推進し、継続的な改善文化の醸成にも貢献。
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/SASE.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>[製造業/情シス]グローバルネットワーク/セキュリティの刷新</h3>
-                        <p>
-                            国内外140拠点を対象に、SASEを活用したネットワーク・セキュリティの刷新を主導。<br>
-                            技術選定、PoC、要件定義、設計・構築・移行、APIを活用した運用自動化まで一貫して担当。<br>
-                            経営層への提案や全拠点への説明・移行調整もリードし、セキュリティ強化と月額コスト約40%削減を達成。<br>
-                            通信品質・ユーザビリティ向上、複雑なネットワークのシンプル化による管理コスト低減にも大きく貢献。
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/AI_Chat.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>[製造業/情シス]チャット型検索システムの企画・開発</h3>
-                        <p>
-                            業務効率化と従業員体験の向上を目的に立ち上げたプロジェクト。<br>
-                            社内外の情報を横断的に検索・回答できるRAG型チャットシステムのアプリ・インフラ全ての技術選定・設計・実装を担当。<br>
-                            プロトタイプ公開後、ユーザフィードバックをもとに機能改善・普及を推進。MAUは約1,100人でグループ全体で活用される主要な情報基盤へと成長させた。<br>
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="personal-projects" class="background-alt">
-        <h2 class="heading text-center">個人開発</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/AI_Summarize_Extension.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Chrome拡張機能：AI要約</h3>
-                        <p>
-                            選択テキストを生成AIを使って要約・コピーするChrome拡張機能を開発。<br>
-                            工夫した点は、選択テキストの意味をAIに正確に渡すため、一度Markdown形式に変換してから生成AIに渡すようにした点。<br>
-                            Web版のチャットツールやメールのスレッド要約、Web記事の要約に個人の範囲で活用中。
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Auto-generate_meeting_minutes.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Web会議議事録の半自動生成の仕組み作り</h3>
-                        <p>
-                            複数のWeb会議ツール（Teams, Zoom等）を利用する中で、議事録作成の手間に課題を感じ、半自動で議事録を作成する仕組みを構築。<br>
-                            最初から全自動化を目指すのではなく、既存サービスを組み合わせてプロトタイプを迅速に構築。<br>
-                            必要な部分のみ手動作業を残すことで、スピード感を重視しつつ実用的なソリューションを実現した。
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #personal-projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>クラウドプラットフォーム（AWS ）</li>
-            <li>コンテナ・自動化（Docker, Terraform）</li>
-            <li>ネットワーク・セキュリティ（SASE, オンプレミスNW機器）</li>
-            <li>オブザーバビリティ（Datadog）</li>
-            <li>プログラミング・開発（Python, JavaScript, GraphQL, Vue.js）</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2025</span> T4k4p1
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+  </main>
 </body>
-
 </html>
